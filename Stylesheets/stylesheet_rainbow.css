@@ -1,0 +1,152 @@
+html {
+	background: gray;
+	color: black;
+}
+
+.flexbox-container_1 {
+	background-color: red;
+} 
+
+.header {
+	background-image: linear-gradient(rgb(227, 118, 118), rgb(214, 149, 96));
+	*/padding: 20px;
+}
+
+.header-section-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.header-section_1 h1 {
+	color: white;
+}
+
+.header-section_1 p {
+	padding: 5px 10px 20px 40px;
+	color: white;
+}
+
+.header-section_2 {
+	color: white;
+}
+
+.button-container {
+	display: flex;
+	width: 600px;
+	margin-left: 10px;
+	justify-content: space-between;
+}
+
+.button {
+	padding: 5px;
+}
+
+.return-pieces {
+	background-color: black;
+	border: 1px solid black;
+	color: white;
+}
+
+.navbar {
+	background-image: linear-gradient(rgb(214, 149, 96), rgb(214, 149, 96), rgb(214, 149, 96), whitesmoke,rgb(227, 202, 104), rgb(227, 202, 104));
+}
+
+.navbar ul {
+	color: black;
+}
+.navbar a:link {
+	color: black;
+}
+.navbar a:visited {
+	color: gray;
+}
+.navbar a:hover {
+	color: lightblue;
+}
+.navbar a:active {
+	color: black;
+}
+
+.flexbox-container_2 {
+	background-image: linear-gradient(rgb(227, 202, 104), rgb(182, 207, 124), rgb(125, 207, 124), rgb(124, 207, 172), rgb(124, 207, 196), rgb(124, 167, 207), rgb(124, 130, 207));
+}
+
+/*.box {
+	background-color: blue;
+	margin: 10px 10px 10px 10px;
+	border: 1px solid black;
+	padding: 5px;
+	align-self: flex-start;
+	justify-content: space-evenly;
+}
+*/
+.box-container_1 {
+}
+
+.piece-container {
+	background-color: rgb(135, 168, 165);
+	color: antiquewhite;
+	border:10px solid rgb(135, 168, 165);
+}
+
+.piece-container td {
+	border: 1px solid whitesmoke;
+}
+
+.piece-container th {
+	border: 1px solid whitesmoke;
+}
+
+.box-container_2 {
+}
+
+.bord {
+	background-color: rgb(61, 39, 10);
+	color: black;
+	border:10px solid rgb(61, 39, 10);
+}
+
+table.bord {
+	border-right: 15px solid rgb(66, 61, 58);
+	border-bottom: 10px solid rgb(66, 61, 58);
+}
+
+table.bord th {
+	background-color: rgb(66, 61, 58);
+	color: gray;
+}
+
+table.bord td {
+}
+
+table.bord tr:nth-child(odd) td:nth-child(odd) {background-color: antiquewhite;}				/*bord Felder einfärben*/
+table.bord tr:nth-child(even) td:nth-child(even) {background-color: antiquewhite;}
+
+table.bord tr:nth-child(odd) td:nth-child(even) {color: antiquewhite;}
+table.bord tr:nth-child(even) td:nth-child(odd) {color: antiquewhite;}
+
+table.bord tr:not(:nth-child(1)) {background-color:rgb(66, 61, 58);}
+
+.box-container_3 {
+}
+
+tr td i {
+	opacity: 0%;
+	transition:opacity 2s;
+}
+
+tr td:hover i {
+  opacity:100%;
+  transition:opacity 2s;
+}
+
+.footer {
+	background-image: linear-gradient( rgb(124, 130, 207), rgb(153, 100, 245));
+	color: black;
+}
+
+address {
+}
+
+.pieces{
+}

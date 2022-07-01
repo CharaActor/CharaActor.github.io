@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Mockuptitle</title>
+    <link href="Stylesheets/stylesheet_structure.css" rel="stylesheet" type="text/css">
+    <link href="Stylesheets/stylesheet_dark.css" rel="stylesheet" type="text/css" id="theme">
+  </head>
+  <body>
+    <div class="flexbox-container_1">
+
+      <div class="header">
+        <div class="header-section-container">
+          <div class="header-section_1">
+            <h1>Schachbaton 9000</h1>
+            <p> lass uns spielen...</p>
+          </div>
+          <div class="header-section_2">
+            <label for="themes">themes:</label>
+            <select name="themes" id="selectThemes">
+              <option value="darkmode">darkmode</option>
+              <option value="lightmode">lightmode</option>
+              <option value="rainbow">rainbow</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="profile.html">profile</a></li>
+          <li><a href="rulebook.html">rulebook</a></li>
+          <li><a href="impressum.html">impressum</a></li>
+        </ul>
+      </div>
+
+      <div class="flexbox-container_2">
+
+        <div class="box-container_1 box">
+          <table id="piece_container_1" class="piece-container">
+            <tr>
+              <th>rook<img src="Chesspieces/black-rook.png" class="pieces" alt="rook"></th>
+              <td>pawn<img src="Chesspieces/black-pawn.png" class="pieces" alt="pawn"></td>
+            </tr>
+            <tr>
+              <th>knight<img src="Chesspieces/black-knight.png" class="pieces" alt="knight"></th>
+              <td>pawn<img src="Chesspieces/black-pawn.png" class="pieces" alt="pawn"></td>
+            </tr>
+            <tr>
+              <th>bishop<img src="Chesspieces/black-bishop.png" class="pieces" alt="bishop"></th>
+              <td>pawn<img src="Chesspieces/black-pawn.png" class="pieces" alt="pawn"></td>
+            </tr>
+            <tr>
+              <th>queen<img src="Chesspieces/black-queen.png" class="pieces" alt="queen">
+              </th>
+              <td>pawn<img src="Chesspieces/black-pawn.png" class="pieces" alt="pawn"></td>
+            </tr>
+            <tr>
+              <th>king<img src="Chesspieces/black-king.png" class="pieces" alt="king"></th>
+              <td>pawn<img src="Chesspieces/black-pawn.png" class="pieces" alt="pawn"></td>
+            </tr>
+            <tr>
+              <th>bishop<img src="Chesspieces/black-bishop.png" class="pieces" alt="bishop"></th>
+              <td>pawn<img src="Chesspieces/black-pawn.png" class="pieces" alt="pawn"></td>
+            </tr>
+            <tr>
+              <th>knight<img src="Chesspieces/black-knight.png" class="pieces" alt="knight"></th>
+              <td>pawn<img src="Chesspieces/black-pawn.png" class="pieces" alt="pawn"></td>
+            </tr>
+             <tr>
+              <th>rook<img src="Chesspieces/black-rook.png" class="pieces" alt="rook"></th>
+              <td>pawn<img src="Chesspieces/black-pawn.png" class="pieces" alt="pawn"></td>
+            </tr>
+            
+          </table>
+        </div>
+
+        <div class="box-container_2 box">
+          
+          <div id="checkbox-container" class="checkbox-container">
+            <div class="checkbox">
+              <input type="checkbox" id="show-coordinates" checked>
+              <label for="show-coordinates">
+                schow coordinates?
+              </label>
+            </div>
+            <button type="button" class="return-pieces">
+              return-pieces
+            </button>
+
+            <div class="checkbox">
+              <input type="checkbox" name="show-piece-container" id="show-piece-container" checked>
+              <label for="show-piece-container">
+                show-piece-container?
+              </label>
+            </div>
+
+        </div>
+
+          <table id="bord" class="bord ">
+            <tr>
+              <th></th>
+              <th>A</th>
+              <th>B</th>
+              <th>C</th>
+              <th>D</th>
+              <th>E</th>
+              <th>F</th>
+              <th>G</th>
+              <th>H</th>
+            </tr>
+            <tr>
+              <th>8</th>
+              <td id="a8"><i>a8<img src="Chesspieces/white-rook.png" class="pieces" alt="rook"></i></td>
+              <td id="b8"><i>b8<img src="Chesspieces/black-pawn.png" class="pieces" alt="pawn"></i></td>
+              <td id="c8"><i>c8</i></td>
+              <td id="d8"><i>d8</i></td>
+              <td id="e8"><i>e8</i></td>
+              <td id="f8"><i>f8</i></td>
+              <td id="g8"><i>g8</i></td>
+              <td id="h8"><i>h8</i></td>
+            </tr>
+            <tr>
+              <th>7</th>
+              <td id="a7"><i>a7</i></td>
+              <td id="b7"><i>b7</i></td>
+              <td id="c7"><i>c7</i></td>
+              <td id="d7"><i>d7</i></td>
+              <td id="e7"><i>e7</i></td>
+              <td id="f7"><i>f7</i></td>
+              <td id="g7"><i>g7</i></td>
+              <td id="h7"><i>h7</i></td>  
+            </tr>
+            <tr>
+              <th>6</th>
+              <td id="a6"><i>a6</i></td>
+              <td id="b6"><i>b6</i></td>
+              <td id="c6"><i>c6</i></td>
+              <td id="d6"><i>d6</i></td>
+              <td id="e6"><i>e6</i></td>
+              <td id="f6"><i>f6</i></td>
+              <td id="g6"><i>g6</i></td>
+              <td id="h6"><i>h6</i></td>
+            </tr>
+            <tr>
+              <th>5</th>
+              <td id="a5"><i>a5</i></td>
+              <td id="b5"><i>b5</i></td>
+              <td id="c5"><i>c5</i></td>
+              <td id="d5"><i>d5</i></td>
+              <td id="e5"><i>e5</i></td>
+              <td id="f5"><i>f5</i></td>
+              <td id="g5"><i>g5</i></td>
+              <td id="h5"><i>h5</i></td>
+            </tr>
+            <tr>
+              <th>4</th>
+              <td id="a4"><i>a4</i></td>
+              <td id="b4"><i>b4</i></td>
+              <td id="c4"><i>c4</i></td>
+              <td id="d4"><i>d4</i></td>
+              <td id="e4"><i>e4</i></td>
+              <td id="f4"><i>f4</i></td>
+              <td id="g4"><i>g4</i></td>
+              <td id="h4"><i>h4</i></td>
+            </tr>
+            <tr>
+              <th>3</th>
+              <td id="a3"><i>a3</i></td>
+              <td id="b3"><i>b3</i></td>
+              <td id="c3"><i>c3</i></td>
+              <td id="d3"><i>d3</i></td>
+              <td id="e3"><i>e3</i></td>
+              <td id="f3"><i>f3</i></td>
+              <td id="g3"><i>g3</i></td>
+              <td id="h3"><i>h3</i></td>
+            </tr>
+            <tr>
+              <th>2</th>
+              <td id="a2"><i>a2</i></td>
+              <td id="b2"><i>b2</i></td>
+              <td id="c2"><i>c2</i></td>
+              <td id="d2"><i>d2</i></td>
+              <td id="e2"><i>e2</i></td>
+              <td id="f2"><i>f2</i></td>
+              <td id="g2"><i>g2</i></td>
+              <td id="h2"><i>h2</i></td>
+            </tr>
+            <tr>
+              <th>1</th>
+              <td id="a1"><i>a1</i></td>
+              <td id="b1"><i>b1</i></td>
+              <td id="c1"><i>c1</i></td>
+              <td id="d1"><i>d1</i></td>
+              <td id="e1"><i>e1</i></td>
+              <td id="f1"><i>f1</i></td>
+              <td id="g1"><i>g1</i></td>
+              <td id="h1"><i>h1</i></td>
+            </tr>
+          </table>
+        </div>
+        <div class="box-container_3 box">
+          <table  id="piece_container_2" class="piece-container">
+             <tr>
+              <th>rook<img src="Chesspieces/white-rook.png" class="pieces" alt="rook"></th>
+              <td>pawn<img src="Chesspieces/white-pawn.png" class="pieces" alt="pawn"></td>
+            </tr>
+            <tr>
+              <th>knight<img src="Chesspieces/white-knight.png" class="pieces" alt="knight"></th>
+              <td>pawn<img src="Chesspieces/white-pawn.png" class="pieces" alt="pawn"></td>
+            </tr>
+            <tr>
+              <th>bishop<img src="Chesspieces/white-bishop.png" class="pieces" alt="bishop"></th>
+              <td>pawn<img src="Chesspieces/white-pawn.png" class="pieces" alt="pawn"></td>
+            </tr>
+            <tr>
+              <th>queen<img src="Chesspieces/white-queen.png" class="pieces" alt="queen">
+              </th>
+              <td>pawn<img src="Chesspieces/white-pawn.png" class="pieces" alt="pawn"></td>
+            </tr>
+            <tr>
+              <th>king<img src="Chesspieces/white-king.png" class="pieces" alt="king"></th>
+              <td>pawn<img src="Chesspieces/white-pawn.png" class="pieces" alt="pawn"></td>
+            </tr>
+            <tr>
+              <th>bishop<img src="Chesspieces/white-bishop.png" class="pieces" alt="bishop"></th>
+              <td>pawn<img src="Chesspieces/white-pawn.png" class="pieces" alt="pawn"></td>
+            </tr>
+            <tr>
+              <th>knight<img src="Chesspieces/white-knight.png" class="pieces" alt="knight"></th>
+              <td>pawn<img src="Chesspieces/white-pawn.png" class="pieces" alt="pawn"></td>
+            </tr>
+             <tr>
+              <th>rook<img src="Chesspieces/white-rook.png" class="pieces" alt="rook"></th>
+              <td>pawn<img src="Chesspieces/white-pawn.png" class="pieces" alt="pawn"></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="footer">
+        <address>
+          <br> A house in the Woods 
+          <br>on a made up street
+          <br>a1 
+          <br>Autor
+        </address>
+      </div>
+    </div>
+
+   <script type="text/javascript" src="javascript.js"></script>
+  </body>
+</html>

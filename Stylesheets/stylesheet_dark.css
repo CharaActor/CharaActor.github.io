@@ -1,0 +1,161 @@
+html {
+	background: gray;
+	color: black;
+}
+
+.flexbox-container_1 {
+	background-color: rgb(33, 33, 33);
+} 
+
+.header {
+	background-color: rgb(33, 33, 33);
+	padding: 20px;
+}
+
+.header-section-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.header-section_1 h1 {
+	color: gray;
+}
+
+.header-section_1 p {
+	padding: 5px 10px 20px 40px;
+	color: gray;
+}
+
+.header-section_2 {
+	color: gray;
+}
+
+.header-section_2 select {
+	background-color: gray;
+	color: whitesmoke;
+}
+
+.button-container {
+	display: flex;
+	width: 600px;
+	margin-left: 10px;
+	justify-content: space-between;
+}
+
+.button {
+	padding: 5px;
+	color: gray;
+}
+
+
+.return-pieces {
+	background-color: black;
+	border: 1px solid black;
+	color: white;
+}
+
+.navbar {
+	background-image: linear-gradient(
+		rgb(33, 33, 33),
+		rgb(33, 33, 33),
+		rgb(92, 92, 92),
+		rgb(33, 33, 33),
+		rgb(33, 33, 33)
+		);
+}
+
+.navbar ul {
+	color: whitesmoke;
+}
+.navbar a:link {
+	color: whitesmoke;
+}
+.navbar a:visited {
+	color: lightgray;
+}
+.navbar a:hover {
+	color: lightblue;
+	text-decoration: none;
+}
+.navbar a:active {
+	color: whitesmoke;
+}
+
+
+
+.flexbox-container_2 {
+	background-image: linear-gradient(rgb(33, 33, 33), black);
+}
+
+/*.box {
+	background-color: blue;
+	margin: 10px 10px 10px 10px;
+	border: 1px solid black;
+	padding: 5px;
+	align-self: flex-start;
+	justify-content: space-evenly;
+}
+*/
+.box-container_1 {
+}
+
+.piece-container {
+	background-color: rgb(66, 61, 58);
+	color: antiquewhite;
+	border:10px solid rgb(66, 61, 58);
+}
+
+.piece-container td {
+	border: 1px solid whitesmoke;
+}
+
+.piece-container th {
+	border: 1px solid whitesmoke;
+}
+
+.box-container_2 {
+}
+
+.bord {
+	background-color: rgb(61, 39, 10);
+	color: black;
+	border:10px solid rgb(61, 39, 10);
+}
+
+table.bord {
+	border-right: 15px solid rgb(66, 61, 58);
+	border-bottom: 10px solid rgb(66, 61, 58);
+}
+
+table.bord th {
+	background-color: rgb(66, 61, 58);
+	color: gray;
+}
+
+table.bord td {
+}
+
+.box-container_3 {
+}
+
+tr td i {
+	opacity: 0%;
+	transition:opacity 2s;
+}
+
+tr td:hover i {
+  opacity:100%;
+  transition:opacity 2s;
+}
+
+.footer {
+	background: black;
+	color: gray;
+}
+
+address {
+}
+
+.pieces{
+}
+
